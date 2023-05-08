@@ -1,0 +1,17 @@
+nav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  nav img {
+    float: left;
+    padding: 14px 16px;
+  }
+  
+  nav img:hover {
+    background-color: #ddd;   
+  }
+  
+  nav img.active {
+    background-color: #4CAF50;
+  }
