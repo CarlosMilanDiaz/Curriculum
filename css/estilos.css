@@ -3,15 +3,23 @@ nav {
     overflow: hidden;
   }
   
-  nav img {
+  nav a {
     float: left;
+    color: white;
+    text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
   }
   
-  nav img:hover {
-    background-color: #ddd;   
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
   }
   
-  nav img.active {
+  nav a.active {
     background-color: #4CAF50;
+    color: white;
   }
+.Entrada{
+    text-align: center;
+}
